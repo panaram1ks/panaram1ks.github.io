@@ -1,15 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Пароминский Евгений — Java-разработчик</title>
+  <style>
+    :root {
+      --text: #1a1a1a;
+      --muted: #444;
+      --line: #ccc;
+      --bg: #fafafa;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Noto Sans", "DejaVu Sans", "Segoe UI", system-ui, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.45;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+      background: #fff;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 1.65rem;
+      margin: 0 0 0.35rem;
+      line-height: 1.2;
+    }
+    .meta {
+      color: var(--muted);
+      margin: 0.2rem 0;
+      font-size: 0.95rem;
+    }
+    .meta a { color: inherit; }
+    .role {
+      margin: 0.75rem 0 0;
+      font-weight: 600;
+    }
+    h2 {
+      font-size: 1.05rem;
+      margin: 1.5rem 0 0.5rem;
+      padding-bottom: 0.25rem;
+      border-bottom: 1px solid var(--line);
+    }
+    p { margin: 0.4rem 0; }
+    ul {
+      margin: 0.35rem 0 0.5rem;
+      padding-left: 1.2rem;
+    }
+    li { margin: 0.2rem 0; }
+    .job-title { margin: 0.25rem 0 0.15rem; }
+    .period {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0 0 0.35rem;
+    }
+    .pdf {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.4rem 0.75rem;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+    .pdf:hover { background: #f0f0f0; }
+  </style>
 </head>
-
 <body>
-  <h1>Hello World</h1>
-  <p>I'm hosted with GitHub Pages.</p>
-</body>
+  <main>
+    <h1>Пароминский Евгений Вячеславович</h1>
+    <p class="meta">г. Витебск, Беларусь | удалёнка / гибрид</p>
+    <p class="meta">
+      <a href="tel:+375292140497">+375 29 214-04-97</a>
+      · <a href="mailto:parom.evgen@mail.ru">parom.evgen@mail.ru</a>
+      · <a href="https://t.me/ParomEvgen">Telegram: @ParomEvgen</a>
+    </p>
+    <p class="role">Java-разработчик | 5+ лет опыта</p>
+    <p><a class="pdf" href="resume.pdf">Скачать PDF</a></p>
 
+    <h2>О себе</h2>
+    <p>
+      Разрабатываю и сопровождаю backend-сервисы на Java в продуктовом финтехе
+      (электронный архив и документооборот). Разрабатываю и поддерживаю UI на Vue.
+      Проектирую и реализую REST API и интеграции между системами; работаю с SQL и PostgreSQL.
+      Есть опыт Docker и Kafka на небольших проектах и контурах. Английский — B1.
+      Последние полгода — тимлид (постановка задач, code review).
+    </p>
+
+    <h2>Навыки</h2>
+    <p>
+      Java, Spring, SQL, PostgreSQL, Liquibase, REST API, Kafka, Docker, Vue, Git,
+      CI/CD (TeamCity), модульная архитектура сервисов
+    </p>
+
+    <h2>Опыт</h2>
+    <p class="job-title">
+      <strong>Java-разработчик</strong> — продуктовый финтех (электронный архив / документооборот)
+    </p>
+    <p class="period">
+      октябрь 2021 — настоящее время<br>
+      <em>(с апреля 2026 — тимлид, ~0.5 года)</em>
+    </p>
+    <ul>
+      <li>Разработка и сопровождение backend-сервисов на Java; модульная архитектура сервисов</li>
+      <li>Разработка и поддержка пользовательских интерфейсов на Vue</li>
+      <li>Проектирование и реализация REST API и интеграций между системами</li>
+      <li>SQL / PostgreSQL, миграции схемы (Liquibase)</li>
+      <li>Docker: контейнеризация сервисов, локальные и стендовые окружения</li>
+      <li>Kafka: обмен сообщениями в небольших интеграционных сценариях</li>
+      <li>CI/CD: TeamCity</li>
+      <li>Тимлидство (0.5 года): постановка задач, code review</li>
+    </ul>
+
+    <h2>Образование</h2>
+    <p>
+      <strong>Витебский государственный технологический университет</strong> —
+      инженер-механик, 2011–2016
+    </p>
+
+    <h2>Языки</h2>
+    <p>Русский — родной · Английский — B1</p>
+  </main>
+</body>
 </html>
